@@ -15,6 +15,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.6.0",
+        "demokn/yii2-composer-asset": "^1.0",
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
@@ -37,9 +38,5 @@
         }
     },
     "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
     ]
 }
