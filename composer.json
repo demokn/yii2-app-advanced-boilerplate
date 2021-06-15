@@ -15,6 +15,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.4.0",
+        "demokn/yii2-composer-asset": "^1.0",
         "yiisoft/yii2": "~2.0.45",
         "yiisoft/yii2-bootstrap5": "~2.0.2",
         "yiisoft/yii2-symfonymailer": "~2.0.3"
@@ -49,9 +50,5 @@
         }
     },
     "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
     ]
 }
